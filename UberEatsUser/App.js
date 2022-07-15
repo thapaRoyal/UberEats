@@ -7,8 +7,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       {/* restaurant item */}
-      <RestaurantItem restaurant={restaurants[0]} />
-      <RestaurantItem restaurant={restaurants[1]} />
+      {/* <RestaurantItem restaurant={restaurants[0]} />
+      <RestaurantItem restaurant={restaurants[1]} /> */}
+
+      <FlatList data={data} />
 
       <StatusBar style="auto" />
     </View>
