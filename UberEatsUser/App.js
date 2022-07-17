@@ -1,20 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { FlatList, Image, StyleSheet, Text, View } from 'react-native';
-import RestaurantItem from './src/components/RestaurantItem';
-import restaurants from './assets/data/restaurants.json';
+import { StatusBar, StyleSheet, View } from 'react-native';
+import HomeScreen from './src/screens/HomeScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* restaurant item */}
-      {/* <RestaurantItem restaurant={restaurants[0]} />
-      <RestaurantItem restaurant={restaurants[1]} /> */}
-
-      <FlatList
-        data={restaurants}
-        renderItem={({ item }) => <RestaurantItem restaurant={item} />}
-        showsVerticalScrollIndicator={false}
-      />
+      <HomeScreen />
 
       <StatusBar style="auto" />
     </View>
