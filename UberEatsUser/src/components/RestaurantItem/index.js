@@ -19,7 +19,7 @@ const RestaurantItem = ({ restaurant }) => {
         </View>
 
         <View style={styles.rating}>
-          <text>{restaurant.rating}</text>
+          <Text>{restaurant.rating}</Text>
         </View>
       </View>
     </View>
@@ -57,6 +57,6 @@ const styles = StyleSheet.create({
     height: 30,
     alignItems: 'center',
     justifyContent: 'center',
-    borderRadius: 10,
+    borderRadius: 20,
   },
 });
