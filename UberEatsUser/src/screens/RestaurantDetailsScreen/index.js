@@ -24,7 +24,8 @@ const RestaurantDetailsPage = () => {
         </Text>
       </View>
 
-      <DishListItem />
+      <DishListItem dish={restaurant.dishes[0]} />
+      <DishListItem dish={restaurant.dishes[2]} />
     </View>
   );
 };
