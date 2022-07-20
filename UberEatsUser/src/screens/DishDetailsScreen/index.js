@@ -47,8 +47,9 @@ const DishDetailsScreen = () => {
       </View>
 
       <View style={styles.button}>
-        <Text style={styles.buttonText}>Add {quantity} to basket</Text>
-        <Text style={styles.buttonTotal}>(${getTotal()})</Text>
+        <Text style={styles.buttonText}>
+          Add {quantity} to basket &#8226; (${getTotal()})
+        </Text>
       </View>
     </View>
   );
@@ -85,7 +86,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
   },
   button: {
-    flexDirection: 'row',
     backgroundColor: 'black',
     marginTop: 'auto',
     padding: 20,
@@ -95,13 +95,6 @@ const styles = StyleSheet.create({
     color: 'white',
     fontWeight: '600',
     fontSize: 20,
-    marginLeft: 40,
-  },
-  buttonTotal: {
-    color: 'white',
-    marginLeft: 80,
-    fontSize: 18,
-    fontWeight: 'bold',
   },
 });
 
