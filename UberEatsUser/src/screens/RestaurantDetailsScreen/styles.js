@@ -25,4 +25,9 @@ export default StyleSheet.create({
   container: {
     margin: 10,
   },
+  menuTitle: {
+    marginTop: 20,
+    fontSize: 18,
+    letterSpacing: 0.7,
+  },
 });
