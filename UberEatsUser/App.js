@@ -2,6 +2,7 @@ import { StatusBar, StyleSheet, View } from 'react-native';
 import Basket from './src/screens/Basket';
 import DishDetailsScreen from './src/screens/DishDetailsScreen';
 import HomeScreen from './src/screens/HomeScreen';
+import OrderDetails from './src/screens/OrderDetails';
 import OrderScreen from './src/screens/OrdersScreen';
 import RestaurantDetailsPage from './src/screens/RestaurantDetailsScreen';
 
@@ -12,7 +13,8 @@ export default function App() {
       {/* <RestaurantDetailsPage /> */}
       {/* <DishDetailsScreen /> */}
       {/* <Basket /> */}
-      <OrderScreen />
+      {/* <OrderScreen /> */}
+      <OrderDetails />
 
       <StatusBar style="light " />
     </View>
